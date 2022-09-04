@@ -61,10 +61,15 @@ body{
 @media screen and (max-width: 425px) {
     .slider{
         width: 70%;
-
     }
     
     .images img{
         height: 200px;
     }    
+}
+
+@media screen and (max-width: 425px) {
+    .slider{
+        width: 60%;
+    }     
 }
