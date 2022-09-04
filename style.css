@@ -11,8 +11,9 @@ body{
     background: blue;
 }
 .slider{
+    max-width: 500px;
     position: relative;
-    width: 60%;
+    width: 50%;
     overflow: hidden;
 }
 .images{
@@ -55,4 +56,15 @@ body{
 }
 #img4:checked ~ .m4{
     margin-left: -300%;
+}
+
+@media screen and (max-width: 425px) {
+    .slider{
+        width: 70%;
+
+    }
+    
+    .images img{
+        height: 200px;
+    }    
 }
